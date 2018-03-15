@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) throws IOException {
         //incriment r by 5 on hw
         int[][] myarray = new int[51][51]; //51 coloumns and 51 rows
-        //hw for(int r = 5;r <= 50;r+=5)
-        //for(c = 5;c <= 50;c+=5)
+        //hw for(int t = 5;t <= 50;t+=5)
+        //for(v = 5;v <= 50;v+=5)
         for (int r = 1; r <= 12; r++) {
             System.out.printf("%5d", r);
             for (int c = 1; c <= 12; c++) {
